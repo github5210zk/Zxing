@@ -27,7 +27,6 @@ public class ThreeActivity extends AppCompatActivity {
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.fl_my_container, captureFragment).commit();
 
-
         initView();
     }
 
